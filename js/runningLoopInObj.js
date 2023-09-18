@@ -23,3 +23,6 @@ const capitals = Object.values(object);
 
 //Object.keys(object).map(country => console.log(country));
 Object.keys(object).map(country => console.log(`Capital of ${country} is ${object[country]}`));
+
+console.dir(Math);
+console.log(Math.PI.toFixed(3));
